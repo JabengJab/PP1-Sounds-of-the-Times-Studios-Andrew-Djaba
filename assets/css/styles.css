@@ -361,6 +361,38 @@ a:hover {
     text-align: center;
 }
 
+/* Audio Samples */
+.audio-samples {
+    padding: var(--space-xl) 0;
+    background-color: #f5f5f5;
+}
+
+.audio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--space-lg);
+    margin-top: var(--space-lg);
+}
+
+.audio-card {
+    background: white;
+    padding: var(--space-lg);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-sm);
+    text-align: center;
+}
+
+.audio-icon {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+    margin-bottom: var(--space-sm);
+}
+
+audio {
+    width: 100%;
+    margin-top: var(--space-sm);
+}
+
 /* Footer */
 .footer {
     background-color: var(--primary-color);

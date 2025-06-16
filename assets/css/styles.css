@@ -469,6 +469,7 @@ audio {
     overflow: hidden;
     box-shadow: var(--shadow-md);
 }
+
 /* Footer */
 .footer {
     background-color: var(--primary-color);

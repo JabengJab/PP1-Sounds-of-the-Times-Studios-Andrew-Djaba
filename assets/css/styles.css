@@ -234,7 +234,7 @@ a:hover {
 
 /* Hero Sections */
 .hero, .media-hero, .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.vecteezy.com/photo/36053483-ai-generated-a-professional-music-studio-with-a-large-mixing-console-computer-monitors-and-studio-monitors);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero.jpeg');
     background-size: cover;
     background-position: center;
     color: var(--text-light);
